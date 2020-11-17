@@ -4,12 +4,12 @@ import { createSlice } from '@reduxjs/toolkit'
 // Array to hold questions and answer options
 const questions = [
   
-  { id: 1, questionText: 'Question to start nerd quiz', options: ['Yes'], correctAnswerIndex: 0 },
-  { id: 2, questionText: 'Do you speak Klingon?', options: ['Yes', 'No'], correctAnswerIndex: 0 },
+  { id: 0, questionText: 'Just how nerdy are you? Take this Nerd Quiz to find out!', options: ['Start Quiz'], correctAnswerIndex: 0 },
+  { id: 1, questionText: 'Do you speak Klingon?', options: ['HIja', 'Ghobe', 'What is Klingon?'], correctAnswerIndex: 0 },
+  { id: 2, questionText: 'What does the Dungeon Master do?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 },
   { id: 3, questionText: 'What does the Dungeon Master do?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 },
   { id: 4, questionText: 'What does the Dungeon Master do?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 },
-  { id: 5, questionText: 'What does the Dungeon Master do?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 },
-  { id: 6, questionText: 'What does the Dungeon Master do?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 }
+  { id: 5, questionText: 'What does the Dungeon Master do?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 }
 ]
 
 // comics, STEM, scifi
